@@ -1,5 +1,11 @@
 import React from "react";
 
-export default function page() {
-  return <div className="bg-slate-300">page</div>;
+import Calculator from "@/projects/Calculator";
+
+export default function Page() {
+  return (
+    <div className="bg-gray-500 h-screen w-full flex items-center justify-center">
+      <Calculator />
+    </div>
+  );
 }

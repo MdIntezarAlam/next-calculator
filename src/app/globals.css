@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.car {
+  transition: transform 0.1s linear;
+}
